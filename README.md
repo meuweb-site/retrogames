@@ -1,7 +1,7 @@
 <!--
 
 :video_game: Retro Games
-Commit: PS1 / GTA 2 / Image
+Commit: PS1 / GTA 2 / HTML
 
  -->
 
