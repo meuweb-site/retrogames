@@ -1,7 +1,8 @@
 <!--
 
 :video_game: Retro Games
-Game: Donkey Kong Racing / Script e Img
+Game: Donkey Kong Racing / Html
+
  -->
 
 <div align="center">
