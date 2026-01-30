@@ -1,8 +1,7 @@
 <!--
 
 :video_game: Retro Games
-Commit: Agradecimento
-
+Game: Donkey Kong Racing / Script e Img
  -->
 
 <div align="center">

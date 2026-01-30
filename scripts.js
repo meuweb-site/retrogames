@@ -69,6 +69,7 @@ const games = [
     { title: 'Demolition Man', company: 'nintendo', console:'Super Nintendo', image: 'assets/images/nintendo/SNES/demolition-man.webp', url: 'nintendo/SNES/demolition-man.html' },
     { title: 'Space Jam', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/space-jam.webp', url: 'sony/playstation-1/space-jam.html' },
     { title: 'GTA 2', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/gta-2.webp', url: 'sony/playstation-1/gta-2.html' },
+    { title: 'Donkey Kong Racing', company: 'nintendo', console:'Nintendo 64', image: 'assets/images/nintendo/N64/donkey-kong-racing.webp', url: 'nintendo/N64/donkey-kong-racing.html' },
 ];
 
 let currentFilter = 'all';
