@@ -1,7 +1,7 @@
 <!--
 
 :video_game: Retro Games
-Game: Grid menor de jogos
+Game: Ajuste de iframe e ainda info em cel sobre Fullscreen
 
  -->
 

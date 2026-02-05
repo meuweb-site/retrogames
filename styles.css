@@ -616,9 +616,15 @@ footer #a-footer-logo {
     /* A propriedade chave: permite redimensionar em ambas as direções */
     resize: both;
     min-width: 400px; /* Limites mínimos para não sumir */
+    max-width: 90vw;
     min-height: 300px;
     border: 1px solid #ccc; /* Ajuda o usuário a ver a alça de redimensionamento */
 
+}
+
+#gameFrame {
+    display: flex;
+    flex-direction: column;
 }
 
 #gameFrame iframe {
@@ -626,6 +632,29 @@ footer #a-footer-logo {
     height: 100%;
     border: 0;
     display: block;
+    flex: 1;
+}
+
+.gameFullscreenInfo {
+    display: none;
+    padding: 1rem;
+    background: color-mix(in srgb, var(--accent) 20%, transparent 80%);
+    border-top: 1px solid var(--accent);
+    text-align: center;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--text-secondary);
+}
+
+.gameFullscreenInfo p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .gameFullscreenInfo {
+        display: block;
+    }
 }
 
 /* Painel de informação (lado direito) - ocupa 1/4 da largura */
