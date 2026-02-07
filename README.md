@@ -1,7 +1,7 @@
 <!--
 
 :video_game: Retro Games
-Game: Duke Nukem: Time to Kill - img and script
+Game: Duke Nukem: Time to Kill - html
 
  -->
 
