@@ -1,7 +1,7 @@
 <!--
 
 :video_game: Retro Games
-Game: Ajuste de iframe e ainda info em cel sobre Fullscreen
+Game: Duke Nukem: Time to Kill - img and script
 
  -->
 

@@ -71,6 +71,7 @@ const games = [
     { title: 'GTA 2', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/gta-2.webp', url: 'sony/playstation-1/gta-2.html' },
     { title: 'Donkey Kong Racing', company: 'nintendo', console:'Nintendo 64', image: 'assets/images/nintendo/N64/donkey-kong-racing.webp', url: 'nintendo/N64/donkey-kong-racing.html' },
     { title: 'Crash Bash', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/crash-bash.webp', url: 'sony/playstation-1/crash-bash.html' },
+    { title: 'Duke Nukem: Time to Kill', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/duke-nukem-time-to-kill.webp', url: 'sony/playstation-1/duke-nukem-time-to-kill.html' },
 ];
 
 let currentFilter = 'all';
