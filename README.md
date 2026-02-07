@@ -1,7 +1,7 @@
 <!--
 
 :video_game: Retro Games
-Some Assets Images Playstation fix
+All images organization and Mj Sega
 
  -->
 
