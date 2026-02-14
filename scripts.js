@@ -72,6 +72,8 @@ const games = [
     { title: 'Donkey Kong Racing', company: 'nintendo', console:'Nintendo 64', image: 'assets/images/nintendo/N64/donkey-kong-racing.webp', url: 'nintendo/N64/donkey-kong-racing.html' },
     { title: 'Crash Bash', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/crash-bash.webp', url: 'sony/playstation-1/crash-bash.html' },
     { title: 'Duke Nukem: Time to Kill', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/duke-nukem-time-to-kill.webp', url: 'sony/playstation-1/duke-nukem-time-to-kill.html' },
+    { title: 'FIFA Soccer 2003', company: 'sony', console: 'Playstation 1', image: 'assets/images/sony/playstation-1/fifa-soccer-2003.webp', url: 'sony/playstation-1/fifa-soccer-2003.html' },
+
 ];
 
 let currentFilter = 'all';
