@@ -1,7 +1,7 @@
 <!--
 
 :video_game: Retro Games
-Up: Fifa Soccer 03 IMG
+Up: Clock Tower SNES (Super Famicon Japão)
 
  -->
 
