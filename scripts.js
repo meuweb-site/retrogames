@@ -74,6 +74,7 @@ const games = [
     { title: 'Duke Nukem: Time to Kill', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/duke-nukem-time-to-kill.webp', url: 'sony/playstation-1/duke-nukem-time-to-kill.html' },
     { title: 'FIFA Soccer 2003', company: 'sony', console: 'Playstation 1', image: 'assets/images/sony/playstation-1/fifa-soccer-2003.webp', url: 'sony/playstation-1/fifa-soccer-2003.html' },
     { title: 'Clock Tower', company: 'nintendo', console:'Super Nintendo', image: 'assets/images/nintendo/SNES/clock-tower.webp', url: 'nintendo/SNES/clock-tower.html' },
+    { title: 'Gran Turismo 2', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/gran-turismo-2.webp', url: 'sony/playstation-1/gran-turismo-2.html' },
 
 ];
 

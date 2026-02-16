@@ -1,7 +1,7 @@
 <!--
 
 :video_game: Retro Games
-Up: Clock Tower SNES (Super Famicon Japão)
+Up: Gran Turismo 2 PS1
 
  -->
 
