@@ -75,6 +75,8 @@ const games = [
     { title: 'FIFA Soccer 2003', company: 'sony', console: 'Playstation 1', image: 'assets/images/sony/playstation-1/fifa-soccer-2003.webp', url: 'sony/playstation-1/fifa-soccer-2003.html' },
     { title: 'Clock Tower', company: 'nintendo', console:'Super Nintendo', image: 'assets/images/nintendo/SNES/clock-tower.webp', url: 'nintendo/SNES/clock-tower.html' },
     { title: 'Gran Turismo 2', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/gran-turismo-2.webp', url: 'sony/playstation-1/gran-turismo-2.html' },
+    { title: 'Gran Turismo 2', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/gran-turismo-2.webp', url: 'sony/playstation-1/gran-turismo-2.html' },
+    { title: 'Biker Mice from Mars', company: 'nintendo', console:'Super Nintendo', image: 'assets/images/nintendo/SNES/biker-mice-from-mars.webp', url: 'nintendo/SNES/biker-mice-from-mars.html' },
 
 ];
 

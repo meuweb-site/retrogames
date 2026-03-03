@@ -1,7 +1,7 @@
 <!--
 
 :video_game: Retro Games
-Up: Gran Turismo 2 PS1
+Up: SNES Biker Mice from Mars
 
  -->
 
