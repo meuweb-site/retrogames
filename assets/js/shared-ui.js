@@ -42,9 +42,9 @@ const SOCIAL_LINKS = [
 
 function BrandLogo({ label = "RETROGAMES", className = "logo" }) {
   return html`
-    <div className=${className}>
+    <div className=${`${className} brand-logo`}>
       <span className="logo-emoji" aria-hidden="true">🎮</span>
-      <span className="logo-text">${label}</span>
+      <span className="logo-text brand-logo-text">${label}</span>
     </div>
   `;
 }
@@ -214,9 +214,9 @@ function Footer({ homeHref, footerMode }) {
       <div className="footer-shell">
         <div className="footer-grid">
           <div className="footer-side footer-side-left">
-            <a href=${homeHref} className="footer-logo">
+            <a href=${homeHref} className="footer-logo brand-logo">
               <span className="logo-emoji" aria-hidden="true">🎮</span>
-              <span className="logo-text">RETROGAMES</span>
+              <span className="logo-text brand-logo-text">RETROGAMES</span>
             </a>
           </div>
 
