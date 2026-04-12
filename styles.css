@@ -45,6 +45,9 @@ body {
 
 header {
     background: var(--bg-secondary);
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0px;
     box-shadow: 0 4px 6px var(--shadow);
     position: sticky;
@@ -370,6 +373,9 @@ footer {
     position: relative;
     padding: 4rem 2rem 2rem;
     background: var(--bg-secondary);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--text-secondary);
     border-top: none;
 }
@@ -404,6 +410,8 @@ footer::before {
 }
 
 .footer-shell {
+    position: relative;
+    z-index: 1;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -588,6 +596,10 @@ footer .footer-logo {
         grid-template-columns: 1fr;
         justify-items: center;
         text-align: center;
+    }
+
+    footer {
+        background-position: 52% top;
     }
 
     .footer-side,

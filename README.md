@@ -1,7 +1,7 @@
 <!--
 
 :video_game: Retro Games
-Up: 12/04/2026 Cor Hamburguer
+Up: 12/04/2026 Header e Footer com bg Image
 
  -->
 

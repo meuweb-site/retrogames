@@ -115,13 +115,17 @@ function ThemeButton({ theme, onToggle, title = "Claro / Escuro" }) {
 
 function HomeHeader({ basePath, activeFilter, onFilterChange, theme, onThemeToggle }) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const headerBackdropSrc = resolvePath(basePath, "assets/images/retro-imgage.webp");
+  const headerBackgroundStyle = {
+    backgroundImage: `linear-gradient(180deg, rgba(8, 13, 37, 0.56) 0%, rgba(21, 27, 61, 0.8) 0%), url("${headerBackdropSrc}")`,
+  };
 
   useEffect(() => {
     setMenuOpen(false);
   }, [activeFilter]);
 
   return html`
-    <header>
+    <header style=${headerBackgroundStyle}>
       <div className="header-content">
         <a href=${resolvePath(basePath, "index.html")} className="clear-link">
           <${BrandLogo} />
@@ -173,8 +177,13 @@ function HomeHeader({ basePath, activeFilter, onFilterChange, theme, onThemeTogg
 }
 
 function GameHeader({ title, homeHref, theme, onThemeToggle }) {
+  const headerBackdropSrc = homeHref.replace(/index\.html$/, "assets/images/retro-imgage.webp");
+  const headerBackgroundStyle = {
+    backgroundImage: `linear-gradient(180deg, rgba(21, 27, 61, 0.985) 0%, rgba(21, 27, 61, 0.98) 100%), url("${headerBackdropSrc}")`,
+  };
+
   return html`
-    <header>
+    <header style=${headerBackgroundStyle}>
       <div className="header-content" id="headerContent">
         <a href=${homeHref}>
           <button className="back-button" type="button">⬅️</button>
@@ -191,6 +200,10 @@ function GameHeader({ title, homeHref, theme, onThemeToggle }) {
 
 function Footer({ homeHref, footerMode }) {
   const showHomeExtras = footerMode === "home";
+  const footerBackdropSrc = homeHref.replace(/index\.html$/, "assets/images/retro-imgage.webp");
+  const footerBackgroundStyle = {
+    backgroundImage: `linear-gradient(180deg, rgba(10, 14, 39, 0.94) 0%, rgba(10, 14, 39, 0.955) 42%, rgba(21, 27, 61, 0.98) 100%), url("${footerBackdropSrc}")`,
+  };
 
   return html`
     ${showHomeExtras
@@ -210,7 +223,7 @@ function Footer({ homeHref, footerMode }) {
         `
       : null}
 
-    <footer id="footer">
+    <footer id="footer" style=${footerBackgroundStyle}>
       <div className="footer-shell">
         <div className="footer-grid">
           <div className="footer-side footer-side-left">
