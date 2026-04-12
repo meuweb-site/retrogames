@@ -1,7 +1,7 @@
 <!--
 
 :video_game: Retro Games
-Up: 12/04/2026 Atualizei Fontes
+Up: 12/04/2026 Fonte mobile Retrogames size
 
  -->
 
