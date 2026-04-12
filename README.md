@@ -1,7 +1,7 @@
 <!--
 
 :video_game: Retro Games
-Up: SNES Biker Mice from Mars
+Up: 12/04/2026 Agora em React + Driver 1
 
  -->
 
@@ -11,18 +11,35 @@ Up: SNES Biker Mice from Mars
 
 # 🎮 Retro Games
 
-Projeto frontend simples que lista e permite filtrar jogos retrô em uma grade responsiva. Foi desenvolvido com HTML, CSS e JavaScript — foco em layout responsivo, temas claro/escuro, e uma interface limpa para navegar pelos jogos.
+Projeto frontend simples que lista e permite filtrar jogos retrô em uma grade responsiva. Agora a estrutura compartilhada do site usa componentes React carregados no navegador, o que reduz a repetição de `header`, `main` e `footer` entre as páginas.
 
 Este repositório contém a versão local do site "Retro Games". Ele não depende de backend: basta abrir `index.html` em um navegador.
 
 - HTML e CSS para a estrutura do site.
-- Javascript para o funcionamento do site e a criação de novos games.
+- React via módulos no navegador para o layout compartilhado.
+- JavaScript para o funcionamento do site e a criação de novos games.
 - Divirta-se neste site <a href="https://retrogames.meuweb.site">retrogames.meuweb.site</a>.
 - Fotos do Projeto neste <a href="https://flic.kr/s/aHBqjCyqp9">link</a>.
 
 ## 🚀 Tecnologias Utilizadas
 
-**Front-End:** HTML, CSS e JavaScript;
+**Front-End:** HTML, CSS, JavaScript e React;
+
+## Estrutura Atual
+
+- `index.html` monta a home via `assets/js/home-page.js`
+- `assets/js/shared-ui.js` concentra os componentes reutilizáveis
+- `assets/js/games-data.js` concentra a lista de jogos da home
+- páginas de jogo usam `assets/js/game-page.js` + um `<template id="page-main-template">`
+- `templates/game-page-template.html` serve como ponto de partida para novos jogos
+- `tools/migrate-game-pages-to-react.mjs` automatiza a migração das páginas antigas para o shell React
+
+## Como adicionar um novo jogo
+
+1. Copie `templates/game-page-template.html` para a pasta desejada.
+2. Ajuste `title`, `data-page-title`, `data-home-href` e o `src` do `iframe`.
+3. Edite apenas o conteúdo dentro de `page-main-template`.
+4. Adicione o jogo em `assets/js/games-data.js` para aparecer na home.
 
 ### Principais recursos:
 
