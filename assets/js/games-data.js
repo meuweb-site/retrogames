@@ -77,5 +77,6 @@ export const games = [
     { title: 'Gran Turismo 2', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/gran-turismo-2.webp', url: 'sony/playstation-1/gran-turismo-2.html' },
     { title: 'Biker Mice from Mars', company: 'nintendo', console:'Super Nintendo', image: 'assets/images/nintendo/SNES/biker-mice-from-mars.webp', url: 'nintendo/SNES/biker-mice-from-mars.html' },
     { title: 'Driver: You Are the Wheelman', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/driver-you-are-the-wheelman.webp', url: 'sony/playstation-1/driver-you-are-the-wheelman.html' },
+    { title: 'Driver 2: Back on the Streets', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/driver-2.webp', url: 'sony/playstation-1/driver-2.html' },
 
 ];
