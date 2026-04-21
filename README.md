@@ -1,7 +1,7 @@
 <!--
 
 :video_game: Retro Games
-Up: 12/04/2026 Driver 2 PS1 Guia Boko
+Up: 21/04/2026 Tarzan
 
  -->
 
