@@ -79,5 +79,10 @@ export const games = [
     { title: 'Driver: You Are the Wheelman', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/driver-you-are-the-wheelman.webp', url: 'sony/playstation-1/driver-you-are-the-wheelman.html' },
     { title: 'Driver 2: Back on the Streets', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/driver-2.webp', url: 'sony/playstation-1/driver-2.html' },
     { title: 'Disney: Tarzan', company: 'sony', console:'Playstation 1', image: 'assets/images/sony/playstation-1/disney-tarzan.webp', url: 'sony/playstation-1/disney-tarzan.html' },
-
+    { title: 'Tiny Toon Adventures - Buster\'s Hidden Treasure', company: 'sega', console: 'Genesis', image: 'assets/images/SEGA/Genesis/Tiny-Toon-Adventures-Busters-Hidden-Treasure.webp', url: 'SEGA/Genesis/Tiny-Toon-Adventures-Busters-Hidden-Treasure.html' },
 ];
+
+for (let i = games.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [games[i], games[j]] = [games[j], games[i]];
+}
